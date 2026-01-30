@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "豆包用户消息列表",
+  "version": "1.0",
+  "description": "在豆包聊天页面展示用户发送的消息列表",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["https://www.doubao.com/chat/*","https://www.doubao.com/chat"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
